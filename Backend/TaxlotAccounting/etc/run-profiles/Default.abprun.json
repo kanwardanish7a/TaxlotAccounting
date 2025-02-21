@@ -1,0 +1,12 @@
+﻿{
+  "applications": {
+    "TaxlotAccounting": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44358",
+      "path": "../../TaxlotAccounting/TaxlotAccounting.csproj",
+      "execution": {
+        "order": 0
+      }
+    }
+  }
+}

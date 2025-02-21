@@ -1,0 +1,21 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"http://localhost:4200",
+    "name": "TaxlotAccounting",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://localhost:44358",
+    "redirectUri": "https://localhost:44358",
+    "clientId": "TaxlotAccounting_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone TaxlotAccounting"
+  },
+  "apis": {
+    "default": {
+      "url": "https://localhost:44358",
+      "rootNamespace": "TaxlotAccounting"
+    }
+  }
+}
